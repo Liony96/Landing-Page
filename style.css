@@ -1,25 +1,28 @@
 body {
     display: flex;
     flex-direction: column;
+    padding: 0px;
 }
 
 .frst-div {
     background-color: #1f2937;
     display: flex;
     flex-direction: column;
-    margin: 0%;
+    margin: 0px;
+    padding: 0px;
 }
 
 .frst-div-header {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 10px 25px;
 }
 
 ul {
     list-style-type: none;
     display: flex;
-    gap: 10px;
+    gap: 20px;
 }
 
 a {
@@ -29,9 +32,38 @@ a {
 
 .info {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .top-info {
     display: flex;
     flex-direction: column;
+    width: 500px;
+    padding: 50px;
+}
+
+.scnd-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards-conteiner {
+    display: flex;
+    justify-content: space-around;
+}
+
+.landing-1 {
+    width: 200px;
+    height: 150px;
+}
+
+button {
+    background-color: #3882f6;
+    border: 0;
+    border-radius: 15px;
+    width: fit-content;
+    padding: 5px 10px;
 }
