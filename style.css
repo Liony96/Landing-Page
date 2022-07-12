@@ -155,11 +155,19 @@ button {
 
 .frth-div {
     background-color: #3882f6;
-    margin: 50px 150px;
+    margin: 70px 250px;
     border-radius: 5px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+.frth-div-texts {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 0;
 }
 
 .texts-button {
@@ -170,8 +178,18 @@ footer {
     background-color: #1f2937;
 }
 
-.footer {
+.texts-header {
+    font-size: 26px;
+}
+
+.texts-header,
+.texts-text {
+    margin: 0;
     color: #F9FAF8;
+}
+
+.footer {
+    color: #e5e7eb;
     display: flex;
     justify-content: center;
     align-items: center;
